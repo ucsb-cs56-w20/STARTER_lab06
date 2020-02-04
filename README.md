@@ -43,16 +43,20 @@ To run on Heroku, you must go BACK to GitHub and set up a DIFFERENT client id an
 localhost.
 
 
-1.  Go to the heroku.com dashboard and create a new Heroku app with the name `cs56-f19-lab06-githubid`, replacing `github` with your
+1.  Go to the heroku.com dashboard and create a new Heroku app with the name `cs56-w20-lab06-githubid`, replacing `github` with your
     github id.
 
+    If that name is too long, abbreviate as needed. 
 
-1.  Now you must GitHub OAuth app for `https://cs56-f19-lab06-githubid.herokuapp.com` and obtain the client-id and client-secret.
+1.  Now you must create an GitHub OAuth app for `https://cs56-w20-lab06-githubid.herokuapp.com` and obtain the client-id and client-secret.
 
     Follow the instructions here: <https://ucsb-cs56.github.io/topics/oauth_github_setup>.
 
-    * For the application url, use <https://cs56-f19-lab06-githubid.herokuapp.com>
-    * For the callback url, also use <https://cs56-f19-lab06-githubid.herokuapp.com>
+    In the urls below, substitute your actual Heroku app name in place of `cs56-w20-lab06-githubid`&mdash;if you shortened it in the step above,
+    you need to be sure that what you put in matches your shortened name.  Do not literally put in `githubid`.
+  
+    * For the application url, use <https://cs56-w20-lab06-githubid.herokuapp.com>
+    * For the callback url, also use <https://cs56-w20-lab06-githubid.herokuapp.com>
     * Note that on Heroku, you typically need use `https` not `http`
      
 2.  You must then copy the file `heroku.json.SAMPLE` to the file `heroku.json`.
@@ -86,16 +90,12 @@ localhost.
 
 5.  Now you are ready to do the steps you did in lab02 to connect your Heroku App to your Github repo, and deploy your app to Heroku and see it running.
 
-    Try logging in with your github account here.
+    Try logging in with your github account.
 
 
 If you get all of that running, you are done with lab06, with the exception of doing some documentation on your links on Gauchospace (as you did for lab02.)
 Lab06 only requires you to get this up and running on Heroku and gets you used to
 configuring an OAuth app.
-
-Lab07 will ask you to make some changes to the code. That is coming online soon, perhaps even before your current lab session is over.  If you are done
-with lab06, look online and see if the lab07 instructions are ready.
-
 
 
 | Type this | to get this result |
