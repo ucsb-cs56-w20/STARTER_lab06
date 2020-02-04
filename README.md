@@ -77,12 +77,12 @@ localhost.
     The name of the Heroku app should match yours (e.g. change `githubid` to your githubid)
 
     ```
-    ./setHerokuEnv.py --app cs56-f19-lab06-githubid
+    ./setHerokuEnv.py --app cs56-w20-lab06-githubid
     ```
 
     You should now be able to go to the Heroku Dashboard for your app online, e.g. this link (replacing `githubid` with yours)
 
-    * <https://dashboard.heroku.com/apps/cs56-f19-lab06-githubid/settings>
+    * <https://dashboard.heroku.com/apps/cs56-w20-lab06-githubid/settings>
 
     Click "Reveal Config Vars".   You should see a configuration variable called `SPRING_APPLICATION_JSON` that contains
     the values that you entered for client id and client secret (i.e the contents of `heroku.json`).
